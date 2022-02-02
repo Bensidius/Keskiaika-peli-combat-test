@@ -23,7 +23,7 @@ public class Skeleton : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
+// kuolon hetki
       isDead = GetComponent<Enemy>().Isdead;
         // if alive, keep moving
       if (!isDead)

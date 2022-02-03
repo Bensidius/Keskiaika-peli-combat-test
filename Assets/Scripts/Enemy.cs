@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public bool Isdead = false;
     public Animator animator;
 
+    
+
     public int maxHealth = 100;
     int currentHealth;
 
@@ -42,7 +44,9 @@ void Die()
 
     // Disable the enemy
     GetComponent<Collider2D>().enabled = false;
+    
     this.enabled = false;
+
     
 }        
     
